@@ -1,0 +1,142 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrect">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="428dp" >
+
+        <TextView
+            android:id="@+id/ProjectName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Wifi To IR" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/TVcontrolButton"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/rect1"
+            android:layout_marginTop="100dp"
+            android:text=" TV Remote Control"
+            android:textSize="15dp"
+            android:textColorHint="#ffffff"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:drawablePadding="16dp">
+        </TextView>
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/TVtrainingButton"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/rect1"
+            android:layout_marginTop="15dp"
+            android:text=" TV Training"
+            android:textColorHint="#ffffff"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="15dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:drawablePadding="16dp">
+        </TextView>
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/ACcontrolButton"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/rect1"
+            android:layout_marginTop="15dp"
+            android:text=" AC Remote Control"
+            android:textSize="15dp"
+            android:textColorHint="#ffffff"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:drawablePadding="16dp">
+        </TextView>
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/ACtrainingButton"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/rect1"
+            android:layout_marginTop="15dp"
+            android:text=" AC Training"
+            android:textColorHint="#ffffff"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="15dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:drawablePadding="16dp">
+        </TextView>
+
+            <TextView
+                android:textColor="#fff"
+                android:id="@+id/ProjectorcontrolButton"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@drawable/rect1"
+                android:layout_marginTop="15dp"
+                android:text=" Projector Remote Control"
+                android:textSize="15dp"
+                android:textColorHint="#ffffff"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:drawablePadding="16dp">
+            </TextView>
+
+            <TextView
+                android:textColor="#fff"
+                android:id="@+id/ProjectortrainingButton"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@drawable/rect1"
+                android:layout_marginTop="15dp"
+                android:text=" Projector Training"
+                android:textColorHint="#ffffff"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="20dp"
+                android:textSize="15dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:drawablePadding="16dp">
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

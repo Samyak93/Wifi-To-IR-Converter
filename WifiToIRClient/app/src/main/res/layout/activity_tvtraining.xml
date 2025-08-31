@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/remote"
+    tools:context=".TVTrainingActivity" >
+
+    <TextView
+        android:id="@+id/chooseoperation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="                     "
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chooseoperation"
+        android:layout_alignRight="@+id/chooseoperation"
+        android:layout_below="@+id/chooseoperation"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_button"
+        android:drawableTop="@drawable/icons_power"
+        android:text="Power" />
+
+    <Button
+        android:id="@+id/ButtonProgMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonVolDown"
+        android:layout_alignBottom="@+id/buttonVolDown"
+        android:layout_alignLeft="@+id/ButtonProgPlus"
+        android:background="@drawable/round_button"
+        android:drawableTop="@drawable/icons_subtract"
+        android:text="Prog" />
+
+    <Button
+        android:id="@+id/buttonVolDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonVolUp"
+        android:layout_below="@+id/buttonVolUp"
+        android:background="@drawable/round_button"
+        android:drawableTop="@drawable/icons_subtract"
+        android:text="Vol" />
+
+    <Button
+        android:id="@+id/ButtonProgPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ButtonProgMinus"
+        android:layout_alignLeft="@+id/buttonOn"
+        android:layout_marginLeft="56dp"
+        android:background="@drawable/round_button"
+        android:drawableTop="@android:drawable/ic_input_add" />
+
+    <Button
+        android:id="@+id/buttonVolUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="35dp"
+        android:layout_toLeftOf="@+id/ButtonProgMinus"
+        android:background="@drawable/round_button"
+        android:drawableTop="@android:drawable/ic_input_add" />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ip_config_layout_relativelayout"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgrect"
+    android:padding="20dp">
+
+    <EditText android:id="@+id/ip_config_layout_serverIpEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_ipaddress"
+        android:maxLines="1"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="#d9e5f3"
+        android:layout_marginTop="50dp"
+        android:letterSpacing="0.1"
+        android:textColor="#fff"/>
+
+    <Button android:id="@+id/ip_ok_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="@string/ip_ok"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/rect"
+        android:padding="15dp"
+        android:layout_weight="1"
+        />
+    <Button android:id="@+id/ip_cancel_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="@string/ip_cancel"
+        android:textStyle="bold"
+        android:layout_marginLeft="160dp"
+        android:textColor="#fff"
+        android:background="@drawable/rect"
+        android:padding="15dp"
+        android:layout_weight="1"
+
+        />
+</RelativeLayout>

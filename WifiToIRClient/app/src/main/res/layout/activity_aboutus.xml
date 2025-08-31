@@ -1,0 +1,42 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgrect"
+    tools:context=".AboutUsActivity" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp" >
+        <TextView
+            android:id="@+id/AboutUs_layout_ProjectName_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="About Us"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/AboutUs_layout_ProjectCompleteBy_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/AboutUs_layout_ProjectName_TextView"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="Project Completed By: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
